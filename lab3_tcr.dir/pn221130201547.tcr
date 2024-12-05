@@ -1,0 +1,6 @@
+#Start recording tcl command: 11/30/2022 20:14:19
+#Project Location: C:/Users/bootcamp/lab3; Project name: lab3
+prj_project new -name "lab3" -impl "impl1" -dev LCMXO2-4000HC-4MG132C -synthesis "lse"
+prj_project save
+prj_src add "C:/Users/bootcamp/lab3/lab3.vhd"
+#Stop recording: 11/30/2022 20:15:47

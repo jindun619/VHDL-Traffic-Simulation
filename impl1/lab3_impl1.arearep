@@ -1,0 +1,19 @@
+----------------------------------------------------------------------
+Report for cell traffic_lights.TECH
+Register bits:  68 of 4635 (1.467%)
+I/O cells:      27
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        34          100.0
+                            FD1P3IX        13          100.0
+                             FD1S1A         4          100.0
+                             FD1S1I         3          100.0
+                             FD1S1J         1          100.0
+                            FD1S3AX         2          100.0
+                            FD1S3IX        45          100.0
+                                GSR         1          100.0
+                                 IB         5          100.0
+                               LUT4        68          100.0
+                                 OB        22          100.0
+                              PFUMX         8          100.0
+                              TOTAL       206

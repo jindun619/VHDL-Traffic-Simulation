@@ -1,0 +1,182 @@
+synthesis:  version Diamond (64-bit) 3.13.0.56.2
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2023 Lattice Semiconductor Corporation,  All rights reserved.
+Fri Dec 06 03:43:45 2024
+
+
+Command Line:  synthesis -f lab3_impl1_lattice.synproj -gui -msgset C:/lab3/promote.xml 
+
+Synthesis options:
+The -a option is MachXO2.
+The -s option is 4.
+The -t option is CSBGA132.
+The -d option is LCMXO2-4000HC.
+Using package CSBGA132.
+Using performance grade 4.
+                                                          
+
+##########################################################
+
+### Lattice Family : MachXO2
+
+### Device  : LCMXO2-4000HC
+
+### Package : CSBGA132
+
+### Speed   : 4
+
+##########################################################
+
+                                                          
+
+INFO - synthesis: User-Selected Strategy Settings
+Optimization goal = Balanced
+Top-level module name = traffic_lights.
+Target frequency = 200.000000 MHz.
+Maximum fanout = 1000.
+Timing path count = 3
+BRAM utilization = 100.000000 %
+DSP usage = true
+DSP utilization = 100.000000 %
+fsm_encoding_style = auto
+resolve_mixed_drivers = 0
+fix_gated_clocks = 1
+
+Mux style = Auto
+Use Carry Chain = true
+carry_chain_length = 0
+Loop Limit = 1950.
+Use IO Insertion = TRUE
+Use IO Reg = AUTO
+
+Resource Sharing = TRUE
+Propagate Constants = TRUE
+Remove Duplicate Registers = TRUE
+force_gsr = auto
+ROM style = auto
+RAM style = auto
+The -comp option is FALSE.
+The -syn option is FALSE.
+-p C:/lscc/diamond/3.13/ispfpga/xo2c00/data (searchpath added)
+-p C:/lab3/impl1 (searchpath added)
+-p C:/lab3 (searchpath added)
+VHDL library = work
+VHDL design file = C:/lab3/traffic_light.vhd
+NGD file = lab3_impl1.ngd
+-sdc option: SDC file input not used.
+-lpf option: Output file option is ON.
+Hardtimer checking is enabled (default). The -dt option is not used.
+The -r option is OFF. [ Remove LOC Properties is OFF. ]
+Technology check ok...
+
+Analyzing Verilog file C:/lscc/diamond/3.13/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v. VERI-1482
+Compile design.
+Compile Design Begin
+INFO - synthesis: The default VHDL library search path is now "C:/lab3/impl1". VHDL-1504
+Analyzing VHDL file c:/lab3/traffic_light.vhd. VHDL-1481
+INFO - synthesis: c:/lab3/traffic_light.vhd(6): analyzing entity traffic_lights. VHDL-1012
+INFO - synthesis: c:/lab3/traffic_light.vhd(26): analyzing architecture lights. VHDL-1010
+unit traffic_lights is not yet analyzed. VHDL-1485
+WARNING - synthesis: c:/lab3/traffic_light.vhd(128): case statement does not cover all choices. 'others' clause is needed. VHDL-1037
+unit traffic_lights is not yet analyzed. VHDL-1485
+c:/lab3/traffic_light.vhd(6): executing traffic_lights(lights)
+
+WARNING - synthesis: c:/lab3/traffic_light.vhd(128): case statement does not cover all choices. 'others' clause is needed. VHDL-1037
+WARNING - synthesis: c:/lab3/traffic_light.vhd(24): replacing existing netlist traffic_lights(lights). VHDL-1205
+Top module name (VHDL): traffic_lights
+Loading NGL library 'C:/lscc/diamond/3.13/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.13/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.13/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.13/ispfpga/or5g00/data/orc5glib.ngl'...
+Loading device for application map from file 'xo2c4000.nph' in environment: C:/lscc/diamond/3.13/ispfpga.
+Package Status:                     Final          Version 1.44.
+Top-level module name = traffic_lights.
+
+
+
+WARNING - synthesis: c:/lab3/traffic_light.vhd(273): Latch all_time_3__I_0_i2 input is stuck at One
+
+GSR instance connected to net n1420.
+WARNING - synthesis: mRegister all_time_7__I_0_288 is stuck at Zero
+Applying 200.000000 MHz constraint to all clocks
+
+WARNING - synthesis: No user .sdc file.
+Results of NGD DRC are available in traffic_lights_drc.log.
+Loading NGL library 'C:/lscc/diamond/3.13/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.13/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.13/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.13/ispfpga/or5g00/data/orc5glib.ngl'...
+All blocks are expanded and NGD expansion is successful.
+Writing NGD file lab3_impl1.ngd.
+
+################### Begin Area Report (traffic_lights)######################
+Number of register bits => 68 of 4635 (1 % )
+CCU2D => 34
+FD1P3IX => 13
+FD1S1A => 4
+FD1S1I => 3
+FD1S1J => 1
+FD1S3AX => 2
+FD1S3IX => 45
+GSR => 1
+IB => 5
+LUT4 => 68
+OB => 22
+PFUMX => 8
+################### End Area Report ##################
+
+################### Begin BlackBox Report ######################
+TSALL => 1
+################### End BlackBox Report ##################
+
+################### Begin Clock Report ######################
+Clock Nets
+Number of Clocks: 2
+  Net : clk_c, loads : 60
+  Net : all_time_7__N_25, loads : 8
+Clock Enable Nets
+Number of Clock Enables: 2
+Top 2 highest fanout Clock Enables:
+  Net : clk_c_enable_12, loads : 11
+  Net : clk_c_enable_13, loads : 2
+Highest fanout non-clock nets
+Top 10 highest fanout non-clock nets:
+  Net : n1424, loads : 29
+  Net : n1423, loads : 23
+  Net : countdown_1, loads : 17
+  Net : countdown_3, loads : 16
+  Net : countdown_2, loads : 16
+  Net : unit_0, loads : 15
+  Net : countdown_4, loads : 12
+  Net : cur_state_2, loads : 11
+  Net : cur_state_0, loads : 11
+  Net : clk_c_enable_12, loads : 11
+################### End Clock Report ##################
+
+Timing Report Summary
+--------------
+--------------------------------------------------------------------------------
+Constraint                              |   Constraint|       Actual|Levels
+--------------------------------------------------------------------------------
+                                        |             |             |
+create_clock -period 5.000000 -name     |             |             |
+clk1 [get_nets all_time_7__N_25]        |            -|            -|     0  
+                                        |             |             |
+create_clock -period 5.000000 -name     |             |             |
+clk0 [get_nets clk_c]                   |  200.000 MHz|   86.423 MHz|    10 *
+                                        |             |             |
+--------------------------------------------------------------------------------
+
+
+1 constraints not met.
+
+
+Peak Memory Usage: 77.313  MB
+
+--------------------------------------------------------------
+Elapsed CPU time for LSE flow : 0.672  secs
+--------------------------------------------------------------

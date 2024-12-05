@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BuildStatus>
+    <Strategy name="Strategy1">
+        <Milestone name="Export" build_result="0" build_time="0">
+            <Task name="IBIS" build_result="2" update_result="0" update_time="1733427834"/>
+            <Task name="TimingSimFileVlg" build_result="2" update_result="0" update_time="1733427835"/>
+            <Task name="TimingSimFileVHD" build_result="2" update_result="0" update_time="1733427836"/>
+            <Task name="Bitgen" build_result="2" update_result="0" update_time="1733427839"/>
+            <Task name="Jedecgen" build_result="2" update_result="0" update_time="1733427842"/>
+        </Milestone>
+        <Milestone name="Map" build_result="2" build_time="1733427826">
+            <Task name="Map" build_result="2" update_result="0" update_time="1733427826"/>
+            <Task name="MapTrace" build_result="2" update_result="0" update_time="1733427827"/>
+            <Task name="MapVerilogSimFile" build_result="2" update_result="0" update_time="1733427828"/>
+            <Task name="MapVHDLSimFile" build_result="2" update_result="0" update_time="1733427828"/>
+        </Milestone>
+        <Milestone name="PAR" build_result="2" build_time="1733427832">
+            <Task name="PAR" build_result="2" update_result="0" update_time="1733427832"/>
+            <Task name="PARTrace" build_result="2" update_result="0" update_time="1733427832"/>
+            <Task name="IOTiming" build_result="2" update_result="0" update_time="1733427834"/>
+        </Milestone>
+        <Milestone name="Synthesis" build_result="2" build_time="1733427826">
+            <Task name="Lattice_Synthesis" build_result="2" update_result="0" update_time="1733427826"/>
+            <Task name="LSE_Compile" build_result="2" update_result="0" update_time="1733427842"/>
+        </Milestone>
+        <Milestone name="TOOL_Report" build_result="0" build_time="0">
+            <Task name="HDLE" build_result="0" update_result="2" update_time="1733427818"/>
+            <Task name="BKM" build_result="0" update_result="2" update_time="1733427818"/>
+            <Task name="SSO" build_result="0" update_result="2" update_time="1733427826"/>
+            <Task name="PIODRC" build_result="0" update_result="2" update_time="1733427826"/>
+            <Task name="DEC" build_result="0" update_result="2" update_time="1669810647"/>
+        </Milestone>
+        <Report name=".vdbs/lab3_impl1_map.vdb" last_build_time="1733427826" last_build_size="52837"/>
+        <Report name="IBIS/lab3_impl1.ibs" last_build_time="1733427834" last_build_size="67921"/>
+        <Report name="lab3_impl1.bgn" last_build_time="1733427842" last_build_size="4478"/>
+        <Report name="lab3_impl1.bit" last_build_time="1733427839" last_build_size="17593"/>
+        <Report name="lab3_impl1.ior" last_build_time="1733427834" last_build_size="3259"/>
+        <Report name="lab3_impl1.jed" last_build_time="1733427842" last_build_size="849839"/>
+        <Report name="lab3_impl1.lsedata" last_build_time="1733427825" last_build_size="215080"/>
+        <Report name="lab3_impl1.ncd" last_build_time="1733427832" last_build_size="146318"/>
+        <Report name="lab3_impl1.ngd" last_build_time="1733427826" last_build_size="122183"/>
+        <Report name="lab3_impl1.tw1" last_build_time="1733427827" last_build_size="16630"/>
+        <Report name="lab3_impl1.twr" last_build_time="1733427832" last_build_size="108495"/>
+        <Report name="lab3_impl1_map.ncd" last_build_time="1733427826" last_build_size="106137"/>
+        <Report name="lab3_impl1_mapvho.sdf" last_build_time="1733427828" last_build_size="91470"/>
+        <Report name="lab3_impl1_mapvho.vho" last_build_time="1733427828" last_build_size="757010"/>
+        <Report name="lab3_impl1_mapvo.sdf" last_build_time="1733427828" last_build_size="90646"/>
+        <Report name="lab3_impl1_mapvo.vo" last_build_time="1733427828" last_build_size="106824"/>
+        <Report name="lab3_impl1_vho.sdf" last_build_time="1733427836" last_build_size="102815"/>
+        <Report name="lab3_impl1_vho.vho" last_build_time="1733427836" last_build_size="763899"/>
+        <Report name="lab3_impl1_vo.sdf" last_build_time="1733427835" last_build_size="101929"/>
+        <Report name="lab3_impl1_vo.vo" last_build_time="1733427835" last_build_size="108527"/>
+    </Strategy>
+</BuildStatus>

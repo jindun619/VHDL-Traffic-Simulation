@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Bitgen">
+        <Message>
+            <ID>1009992</ID>
+            <Severity>Info</Severity>
+            <Dynamic> SW_XO3D_SECURITY_ENCRYPTION *NOT* controlled by xo2c00.acd ###</Dynamic>
+        </Message>
+        <Message>
+            <ID>1009992</ID>
+            <Severity>Info</Severity>
+            <Dynamic> SW_XO3D_SECURITY_ENCRYPTION license_securityIP OK</Dynamic>
+        </Message>
+    </Task>
+    <Task name="MapVerilogSimFile">
+        <Message>
+            <ID>35400250</ID>
+            <Severity>Info</Severity>
+            <Dynamic>0</Dynamic>
+        </Message>
+    </Task>
+    <Task name="MapVHDLSimFile">
+        <Message>
+            <ID>35400209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>DEFAULT</Dynamic>
+            <Dynamic>-1</Dynamic>
+            <Dynamic>Keyword</Dynamic>
+        </Message>
+        <Message>
+            <ID>35400209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>ASSERT</Dynamic>
+            <Dynamic>-1</Dynamic>
+            <Dynamic>Keyword</Dynamic>
+        </Message>
+        <Message>
+            <ID>35400250</ID>
+            <Severity>Info</Severity>
+            <Dynamic>0</Dynamic>
+        </Message>
+    </Task>
+    <Task name="IBIS">
+        <Message>
+            <ID>1191031</ID>
+            <Severity>Info</Severity>
+        </Message>
+    </Task>
+    <Task name="Map">
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/lab3/lab3.lpf(40): Semantic error in &quot;IOBUF PORT &quot;newp1&quot; IO_TYPE=LVCMOS33 ;&quot;: </Dynamic>
+            <Dynamic>newp1</Dynamic>
+            <Navigation>C:/lab3/lab3.lpf</Navigation>
+            <Navigation>40</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/lab3/lab3.lpf(41): Semantic error in &quot;IOBUF PORT &quot;newp2&quot; IO_TYPE=LVCMOS33 ;&quot;: </Dynamic>
+            <Dynamic>newp2</Dynamic>
+            <Navigation>C:/lab3/lab3.lpf</Navigation>
+            <Navigation>41</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/lab3/lab3.lpf(52): Semantic error in &quot;LOCATE COMP &quot;newp1&quot; SITE &quot;P12&quot; ;&quot;: </Dynamic>
+            <Dynamic>newp1</Dynamic>
+            <Navigation>C:/lab3/lab3.lpf</Navigation>
+            <Navigation>52</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/lab3/lab3.lpf(53): Semantic error in &quot;LOCATE COMP &quot;newp2&quot; SITE &quot;M12&quot; ;&quot;: </Dynamic>
+            <Dynamic>newp2</Dynamic>
+            <Navigation>C:/lab3/lab3.lpf</Navigation>
+            <Navigation>53</Navigation>
+        </Message>
+    </Task>
+    <Task name="Lattice_Synthesis">
+        <Message>
+            <ID>35002000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>35001781</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>35921504</ID>
+            <Severity>Info</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>C:/lab3/impl1</Dynamic>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/lab3/traffic_light.vhd(6): </Dynamic>
+            <Dynamic>traffic_lights</Dynamic>
+            <Navigation>c:/lab3/traffic_light.vhd</Navigation>
+            <Navigation>6</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/lab3/traffic_light.vhd(26): </Dynamic>
+            <Dynamic>lights</Dynamic>
+            <Navigation>c:/lab3/traffic_light.vhd</Navigation>
+            <Navigation>26</Navigation>
+        </Message>
+        <Message>
+            <ID>35928037</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/lab3/traffic_light.vhd(128): </Dynamic>
+            <Navigation>c:/lab3/traffic_light.vhd</Navigation>
+            <Navigation>128</Navigation>
+        </Message>
+        <Message>
+            <ID>35928037</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/lab3/traffic_light.vhd(128): </Dynamic>
+            <Navigation>c:/lab3/traffic_light.vhd</Navigation>
+            <Navigation>128</Navigation>
+        </Message>
+        <Message>
+            <ID>35921205</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/lab3/traffic_light.vhd(24): </Dynamic>
+            <Dynamic>traffic_lights</Dynamic>
+            <Dynamic>lights</Dynamic>
+            <Navigation>c:/lab3/traffic_light.vhd</Navigation>
+            <Navigation>24</Navigation>
+        </Message>
+        <Message>
+            <ID>1009991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/lab3/traffic_light.vhd(273): Latch all_time_3__I_0_i2 input is stuck at One
+</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001752</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>all_time_7__I_0_288</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001611</ID>
+            <Severity>Warning</Severity>
+        </Message>
+    </Task>
+    <Task name="PAR">
+        <Message>
+            <ID>61001101</ID>
+            <Severity>Warning</Severity>
+        </Message>
+        <Message>
+            <ID>61061008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>clk_c</Dynamic>
+            <Dynamic>Primary</Dynamic>
+            <Dynamic>clk</Dynamic>
+            <Dynamic>C1</Dynamic>
+            <Dynamic>Primary</Dynamic>
+        </Message>
+    </Task>
+    <Task name="TimingSimFileVHD">
+        <Message>
+            <ID>35400209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>DEFAULT</Dynamic>
+            <Dynamic>-1</Dynamic>
+            <Dynamic>Keyword</Dynamic>
+        </Message>
+        <Message>
+            <ID>35400209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>ASSERT</Dynamic>
+            <Dynamic>-1</Dynamic>
+            <Dynamic>Keyword</Dynamic>
+        </Message>
+        <Message>
+            <ID>35400250</ID>
+            <Severity>Info</Severity>
+            <Dynamic>0</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Jedecgen">
+        <Message>
+            <ID>1009992</ID>
+            <Severity>Info</Severity>
+            <Dynamic> SW_XO3D_SECURITY_ENCRYPTION *NOT* controlled by xo2c00.acd ###</Dynamic>
+        </Message>
+        <Message>
+            <ID>1009992</ID>
+            <Severity>Info</Severity>
+            <Dynamic> SW_XO3D_SECURITY_ENCRYPTION license_securityIP OK</Dynamic>
+        </Message>
+    </Task>
+    <Task name="TimingSimFileVlg">
+        <Message>
+            <ID>35400250</ID>
+            <Severity>Info</Severity>
+            <Dynamic>0</Dynamic>
+        </Message>
+    </Task>
+</BaliMessageLog>
